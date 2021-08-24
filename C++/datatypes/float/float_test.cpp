@@ -17,6 +17,6 @@ int main()
         float type variables can only store till 7 decimal digits
     */
 
-    // now print th
+    // now print the number
     cout << myNum;
 }
