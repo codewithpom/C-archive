@@ -1,4 +1,4 @@
-#include "stdio.h" // include the stdio.h library as it is the standard library in C
+#include <stdio.h> // include the stdio.h library as it is the standard library in C
 /*
     User I prefer you to first see the logic.html file before reading this becurse that file
     will tell explain you the logic which we will use in this program.

@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int max_element_in_an_array(int arr[], int size)
 {

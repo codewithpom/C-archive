@@ -1,4 +1,4 @@
-#include "stdio.h" // include the stdio.h header file as it is the standard header file in C
+#include <stdio.h> // include the stdio.h header file as it is the standard header file in C
 
 int sum_of_array(int arr[], int size) // a function just to return the sum of an int array you can change if you want
 {
@@ -22,7 +22,6 @@ int sum_of_array(int arr[], int size) // a function just to return the sum of an
     return sum; // at last return the
 }
 
-
 void print_arr(int arr[], int size) // a function just to print the arr with a single space between each element
 {
     for (int i = 0; i < size; i++) // iterate over the array
@@ -31,7 +30,6 @@ void print_arr(int arr[], int size) // a function just to print the arr with a s
     }
     printf("\n"); // print a single line break to make the output clean for the next output
 }
-
 
 int main() // create the main function which will be executed
 {

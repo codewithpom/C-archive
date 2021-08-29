@@ -1,4 +1,4 @@
-#include "stdio.h" // include the stdio.h header file as it is the standard header file in C
+#include <stdio.h> // include the stdio.h header file as it is the standard header file in C
 
 int main() // create the main function which will be executued
 {
