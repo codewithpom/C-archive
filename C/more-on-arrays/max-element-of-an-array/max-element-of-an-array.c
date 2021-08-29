@@ -10,14 +10,10 @@ int max_element_in_an_array(int arr[], int size)
         {
             largest_number = element;
         }
-        
     }
 
     return largest_number;
-    
 }
-
-
 
 void print_arr(int arr[], int size) // a function just to print the arr with a single space between each element
 {
@@ -34,7 +30,16 @@ int main()
     int size = sizeof(arr) / sizeof(arr[0]);
 
     printf("The original array is ");
-    print_arr(arr);
-
-
+    print_arr(arr, size);
+    printf("%d", max_element_in_an_array(arr, size));
 }
+
+/*
+            This Program was made on 28 August 2021 for C Github Archive Program
+            By Padmashree Jha
+            https://github.com/codewithpom
+            padmashreejha717@gmail.com
+            contact me for queries
+            This file should belong to this repository - https://github.com/codewithpom/C-archive
+            Thank you
+    */

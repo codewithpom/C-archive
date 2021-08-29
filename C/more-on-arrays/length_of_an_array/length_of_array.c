@@ -11,3 +11,13 @@ int main() // create the main function which will be executued
 
     printf("%d", length_of_arr);
 }
+
+/*
+            This Program was made on 26 August 2021 for C Github Archive Program
+            By Padmashree Jha
+            https://github.com/codewithpom
+            padmashreejha717@gmail.com
+            contact me for queries
+            This file should belong to this repository - https://github.com/codewithpom/C-archive
+            Thank you
+    */

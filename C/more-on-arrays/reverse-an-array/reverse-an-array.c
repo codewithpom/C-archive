@@ -34,3 +34,13 @@ int main()
     reverseArray(arr, 0, size - 1);          // reverse the arr
     print_arr(arr, size);                    // print the reversed arr
 }
+
+/*
+            This Program was made on 28 August 2021 for C Github Archive Program
+            By Padmashree Jha
+            https://github.com/codewithpom
+            padmashreejha717@gmail.com
+            contact me for queries
+            This file should belong to this repository - https://github.com/codewithpom/C-archive
+            Thank you
+    */
