@@ -8,18 +8,17 @@ int pair(int arr[], int sum, int size)
     for (int i = 0; i < size; i++)
     {
         first_element = arr[i];
-        for (int g = i + 1; i < size; g++)
+        for (int g = i + 1; g < size; g++)
         {
             second_element = arr[g];
             if (second_element + first_element == sum)
             {
-                int pair[] = {first_element, second_element};
-                return pair;
+                return first_element;
             }
         }
     }
-    int temp[2] = {-1, NULL};
-    return temp;
+    
+    return -1;
 
 }
 
@@ -34,13 +33,13 @@ void print_arr(int arr[], int size) // a function just to print the arr with a s
 
 int main()
 {
+    int sum = 7;
     int arr[] = {2, 3, 2, 4, 2};
     int size = sizeof(arr) / sizeof(arr[0]);
     print_arr(arr, size);
-    int pair_numbers[2];
-    pair_numbers = pair(arr, 7, size);
+    int pair_numbers = pair(arr, sum, size);;
 
-    if (pair_numbers)
+    if (pair_numbers == -1)
     {
         printf("%d", -1);
 
@@ -48,8 +47,8 @@ int main()
 
     else
     {
-        printf("%d and %d", pair_numbers[0], pair_numbers[1]);
+        printf("%d and %d", pair_numbers, (sum - pair_numbers));
         
     }
-
+    printf("\n");
 }
